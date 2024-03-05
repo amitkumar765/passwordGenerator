@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: antiquewhite;
+
+}
+.container_password{
+    background-color: white;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    
+    
+}
+.header{
+    color: white;
+    background-color: blue;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0 0;
+}
+.display{
+    margin-bottom: 5px;
+    
+}
+#pass_input{
+    width: 75%;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+#copy{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border: none;
+    width: 20%;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.setting{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 7.5px 15px;
+    font-size: larger;
+    font-weight: bold;
+}
+#generate{
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    outline: none;
+    border-radius: 0 0 10px 10px;
+    color: white;
+    background-color: blue;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
